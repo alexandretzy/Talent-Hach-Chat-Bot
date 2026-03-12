@@ -61,7 +61,7 @@ export default function Home() {
         setLoading(true); // Show loading animation
 
         try {
-            const response = await fetch('https://henrytaizon.app.n8n.cloud/webhook/talent-hatch-chatbot', {
+            const response = await fetch('https://alexandretzy.app.n8n.cloud/webhook/talent-hatch-chatbot', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

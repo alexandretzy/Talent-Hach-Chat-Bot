@@ -50,7 +50,7 @@ export default function Form() {
         if (data.uploaded_resume) {
             try {
                 const response = await axios.post(
-                    'https://henrytaizon.app.n8n.cloud/webhook/talent_hatch',
+                    'https://alexandretzy.app.n8n.cloud/webhook/talent_hatch',
                     data,
                     {
                         headers: {
